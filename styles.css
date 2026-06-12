@@ -299,9 +299,7 @@
     margin: 0 auto 1rem; display: flex; align-items: center; justify-content: center;
     flex-direction: column; gap: 6px;
   }
-  .qr-inner {
-    display: grid; grid-template-columns: repeat(5,1fr); gap: 2px; width: 70px; height: 70px;
-  }
+
   .qr-cell { background: rgba(245,240,232,0.35); border-radius: 1px; }
   .qr-cell.filled { background: rgba(245,240,232,0.75); }
   .qr-label { font-size: 0.65rem; letter-spacing: 0.15em; text-transform: uppercase; color: rgba(245,240,232,0.3); }
@@ -343,3 +341,22 @@
     .values-grid { grid-template-columns: 1fr; }
     .obs-grid { grid-template-columns: 1fr; }
   }
+
+.slide-bg img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.about-me-img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+.qrcode{
+  width: 100%;
+  margin: 1% auto;
+}
